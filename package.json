@@ -1,0 +1,21 @@
+{
+  "name": "@expedite/xql-parser",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build:grammar": "pegjs src/grammar.pegjs src/parser.js",
+    "test": "mocha --require should --compilers js:babel-core/register tests"
+  },
+  "author": "Conner Bryan <conner@expeditelabs.com> (https://github.com/cab)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "pegjs": "^0.9.0",
+    "should": "^7.1.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
